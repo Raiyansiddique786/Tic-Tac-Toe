@@ -6,7 +6,7 @@ Play the classic Xs and Os game directly in your browser with a clean and respon
 ---
 
 ## 🚀 Live Demo  
-👉 [Play Here](https://raiyansiddique786.github.io/Tic-Tac-Toe/)  
+👉 [Play Here](https://raiyansiddique786.github.io/Tic-Tac-Toe/)
 *(Click the link to play the game online)*  
 
 ---
