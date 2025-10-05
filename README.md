@@ -40,3 +40,7 @@ It demonstrates the use of **DOM manipulation**, **event handling**, and **game 
 4. Click the **Restart** button to start a new game  
 
 ---
+
+👨‍💻 Author
+Md Raiyan Siddique
+
