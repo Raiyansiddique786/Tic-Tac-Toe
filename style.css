@@ -1,0 +1,59 @@
+/* We always want to remove by default style on body */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(115, 166, 149);
+    text-align: center;
+    /* margin-top: 10px; */
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+/* vmin : 1% of smaller dimension of viewport (either width or height) */
+
+.game{
+    /* height: 60%; applies rspect to parent height  */
+    height: 60vmin;
+    width: 60vmin;
+    /* height: 60%;
+    width: 60%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* to give gap between boxes */
+    gap: 1.5vmin; 
+}
+
+/* We want 3 button at 1 row. So, we divide 60% by 3 and take less than that */
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1.25rem;
+    border: none;
+    box-shadow: 0 0 10px rgba(20,30,20,0.4);
+    font-size: 8vmin;
+    color: rgb(160, 49, 49);
+    background-color: rgb(236, 243, 243);
+    /* height: 30%;
+    width: 30%; */
+}
+
+#reset-btn{
+    padding:1rem;
+    font-size: 1.25rem;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    border-radius: 1rem;
+    border:none;
+}
