@@ -8,6 +8,7 @@
 body{
     background-color: rgb(115, 166, 149);
     text-align: center;
+    margin-top: 10px;
     /* margin-top: 10px; */
 }
 
@@ -57,3 +58,32 @@ body{
     border-radius: 1rem;
     border:none;
 }
+
+#new-game{
+    margin-top: 0.5rem;
+    padding:1rem;
+    font-size: 1.25rem;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    border-radius: 1rem;
+    border:none;
+}
+
+#msg{
+    color: rgb(252, 250, 211);
+    font-size: 3rem;
+}
+
+.msg-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.hide{
+    display: none;
+}
+
